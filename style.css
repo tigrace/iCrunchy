@@ -1,0 +1,102 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: garamond;
+	background-color:  white;
+
+}
+h3 {
+	color: red;
+}
+.clear {
+	clear: both;
+}
+.nav {
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.nav ul {
+	list-style: none;
+}
+.nav #ul2 {
+	float: right;
+}
+.nav li {
+	float: left;
+}
+.nav li a {
+	display: inline-block;
+	padding: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+#img1 {
+	background-image: url('photo/tea1.jpg');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	padding-top: 100px;
+	width: inherit;
+	height: 80VH;
+	text-align: center;
+	margin-bottom: 50px;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+/*.left, .right {
+	float: left;
+	width: 49.9%;
+	padding: 1.25rem;
+}*/
+.left img {
+	width: 100%;
+	height: inherit;
+
+}
+.right {
+	padding-top: 120px;
+	margin: px;
+	line-height: 24px;
+
+
+}
+
+
+#contact {
+	letter-spacing: 3px;
+	word-spacing: 10px;
+	margin: -px;
+	padding: 10%;
+	text-transform: capitalize;
+	/*text-indent:50px;*/
+}
+
+.ife {
+  	width: 100%;
+  	border: 0px;
+  	border-bottom: 1px solid grey;
+  	padding: 1%;
+  }
+  	footer{
+	border:100px lightblue;
+	background-color: grey;
+	text-align: center;
+	margin: 90px;
+	line-height: 90px;
+}
+
+@media screen and (min-width: 750px){
+	.left, .right {
+	float: left;
+	width: 49.9%;
+	padding: 1.25rem;*/
+}
+
+}
